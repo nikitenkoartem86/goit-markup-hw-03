@@ -65,8 +65,8 @@ img {
     border: none;
  }
  .section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
+    
  }
 .container{
     width: 1158px;
@@ -125,10 +125,12 @@ padding-bottom: 24px;
  .container-navigation{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
+     }
+.header-navigation{
+border-bottom: 1px solid #E7E9FC;
+}
 
 
- }
 .navigation {
     display: flex;
     align-items: center;
@@ -260,9 +262,9 @@ padding-bottom: 24px;
         background-color:var(--button-aktive);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
          /* < !--Section1--> */
-.list-container{
+.features-list{
     display: flex;
-    padding-top: 120px;
+    
     gap: 24px;
 }
         
@@ -276,7 +278,7 @@ padding-bottom: 24px;
                     color:var(--dark);}
         
                  .features-text {
-                    padding-top: 8px;
+                    margin-top: 8px;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 1.5;
@@ -288,12 +290,11 @@ padding-bottom: 24px;
                     display: flex;
                     flex-wrap: wrap;
                     gap: 24px;
-                    /* padding-top: 72px; */
-                    /* padding-bottom: 120px; */
+                  
                  }
                 .task{
-                    padding-top: 120px;
-                    padding-bottom: 120px;
+                    padding-top: 0;
+                
 
 
                 }
@@ -304,12 +305,12 @@ padding-bottom: 24px;
                     background-color:var(--light);
                  }
                  .team-wrapper{
-                    background-color: #fff;
+                    
                 
                      padding-top: 32px; 
                       padding-bottom: 32px; 
-                      /* margin-bottom: 40px;  */
-                    border: none 
+                    
+                    
                  }
         
                  .section-title {
@@ -319,18 +320,18 @@ padding-bottom: 24px;
                     text-align: center; 
                     letter-spacing: 0.02em;
                     text-transform: capitalize;
-                 padding-top: 120px; 
-                padding-bottom: 72px;
+                 
+                margin-bottom:  72px;
                 }
-                .team-container{
+                .team-list{
                 display: flex;
                 gap: 24px;
-                align-items: center;
-                padding-bottom: 120px;
+                
+               
 
                 }
                  .team-item {
-                    background: #FFFFFF;
+                    background-color: #FFFFFF;
                         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
                         border-radius: 0px 0px 4px 4px;
                  }
@@ -338,13 +339,14 @@ padding-bottom: 24px;
                  .team-img {}
         
                  .team-name {
+                    margin-bottom: 8px;
                     font-weight: 500;
                     font-size: 20px;
                     line-height: 1.2;
                     text-align: center;
                     letter-spacing: 0.02em;
                     color:var(--dark);
-                    padding-top: 8px;
+                   
                 
                 }
         
@@ -360,37 +362,41 @@ padding-bottom: 24px;
         
                  .footer-text {
                     width: 264px;
-                    padding-top: 16px;
-                    padding-bottom: 100px;
-                    margin-left: auto
-                    font-weight 400;
+                    margin-top: 16px;
+                  
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     color:var(--accent); 
                 }
                     .footer-background {
-                    background-color:  #2E2F42}
+                    background-color:  #2E2F42;
+                    padding: 100px 0;
+            
+                }
+                .section-portfolio{
+                    padding: 96px 120px;
+                }
 
                 .button-list {
                    
                 display: flex;
                 gap: 24px;
                 justify-content: center;
-                margin-top: 81px;
+                
                 margin-bottom: 72px;
                 }
                 .button-portfolio{
                     background:var(--light);
-                    width: 116px;
-                    height: 48px;
+                    /* width: 116px;
+                    height: 48px; */
                     border: 1px solid #E7E9FC;
                     border-radius: 4px;
                     font-weight: 500;
                     font-size: 16px;
                     line-height: 24px;
                             
-                           
+                    padding: 12px 24px;
                             
                             align-items: center;
                             text-align: center;
@@ -406,11 +412,8 @@ padding-bottom: 24px;
                 }
                 
                  .works-wrapper {
-                    background-color:var(--white-text-color);
-                    box-sizing: border-box;
-                    padding-top: 32px;
-                    padding-bottom: 32px;
-                    margin-bottom: 48px;
+                    padding: 32px 16px;
+                    
                     border: 1px solid var(--accent);
                     border-top: none;
                     
@@ -419,7 +422,7 @@ padding-bottom: 24px;
                 .works-list{
                     display: flex;
                     flex-wrap: wrap;
-                    gap: 24px;
+                    gap:48px 24px;
 
 
 
@@ -431,7 +434,7 @@ padding-bottom: 24px;
 
                  .works-name {
                     display: inline;
-                    padding-left: 8px;
+                    margin-bottom: 8px;
                     font-weight: 500;
                     font-size: 20px;
                     line-height: 1.2;
@@ -440,7 +443,7 @@ padding-bottom: 24px;
                     color:var(--dark);}
                 
                 .works-product {
-                    padding-left: 8px;
+                   
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 1.5;
